@@ -14,6 +14,8 @@
 		BFF8E0D3137E628800F39408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF8E0D2137E628800F39408 /* main.m */; };
 		BFF8E0D6137E628800F39408 /* IconAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF8E0D5137E628800F39408 /* IconAppAppDelegate.m */; };
 		BFF8E0D9137E628800F39408 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFF8E0D7137E628800F39408 /* MainWindow.xib */; };
+		BFF8E0E1137E62A000F39408 /* IconView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF8E0E0137E62A000F39408 /* IconView.m */; };
+		BFF8E0E4137E62A900F39408 /* IconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF8E0E3137E62A900F39408 /* IconViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +23,17 @@
 		BFF8E0C5137E628700F39408 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BFF8E0C7137E628700F39408 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BFF8E0C9137E628700F39408 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BFF8E0CD137E628800F39408 /* IconApp-Info.plist */ = {isa = PBXFileReference; path = "IconApp-Info.plist"; sourceTree = "<group>"; };
+		BFF8E0CD137E628800F39408 /* IconApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IconApp-Info.plist"; sourceTree = "<group>"; };
 		BFF8E0CF137E628800F39408 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BFF8E0D1137E628800F39408 /* IconApp-Prefix.pch */ = {isa = PBXFileReference; path = "IconApp-Prefix.pch"; sourceTree = "<group>"; };
+		BFF8E0D1137E628800F39408 /* IconApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IconApp-Prefix.pch"; sourceTree = "<group>"; };
 		BFF8E0D2137E628800F39408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BFF8E0D4137E628800F39408 /* IconAppAppDelegate.h */ = {isa = PBXFileReference; path = IconAppAppDelegate.h; sourceTree = "<group>"; };
+		BFF8E0D4137E628800F39408 /* IconAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconAppAppDelegate.h; sourceTree = "<group>"; };
 		BFF8E0D5137E628800F39408 /* IconAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconAppAppDelegate.m; sourceTree = "<group>"; };
 		BFF8E0D8137E628800F39408 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		BFF8E0DF137E62A000F39408 /* IconView.h */ = {isa = PBXFileReference; fileEncoding = 4; path = IconView.h; sourceTree = "<group>"; };
+		BFF8E0E0137E62A000F39408 /* IconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconView.m; sourceTree = "<group>"; };
+		BFF8E0E2137E62A900F39408 /* IconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = IconViewController.h; sourceTree = "<group>"; };
+		BFF8E0E3137E62A900F39408 /* IconViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,10 @@
 		BFF8E0CB137E628700F39408 /* IconApp */ = {
 			isa = PBXGroup;
 			children = (
+				BFF8E0DF137E62A000F39408 /* IconView.h */,
+				BFF8E0E0137E62A000F39408 /* IconView.m */,
+				BFF8E0E2137E62A900F39408 /* IconViewController.h */,
+				BFF8E0E3137E62A900F39408 /* IconViewController.m */,
 				BFF8E0D4137E628800F39408 /* IconAppAppDelegate.h */,
 				BFF8E0D5137E628800F39408 /* IconAppAppDelegate.m */,
 				BFF8E0D7137E628800F39408 /* MainWindow.xib */,
@@ -157,6 +167,8 @@
 			files = (
 				BFF8E0D3137E628800F39408 /* main.m in Sources */,
 				BFF8E0D6137E628800F39408 /* IconAppAppDelegate.m in Sources */,
+				BFF8E0E1137E62A000F39408 /* IconView.m in Sources */,
+				BFF8E0E4137E62A900F39408 /* IconViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

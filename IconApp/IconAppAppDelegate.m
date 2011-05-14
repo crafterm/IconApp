@@ -7,6 +7,7 @@
 //
 
 #import "IconAppAppDelegate.h"
+#import "IconViewController.h"
 
 @implementation IconAppAppDelegate
 
@@ -16,6 +17,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    IconViewController * iconViewController = [[IconViewController alloc] init];
+    [self.window addSubview:iconViewController.view];
     [self.window makeKeyAndVisible];
     return YES;
 }

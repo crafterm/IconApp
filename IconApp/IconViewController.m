@@ -14,7 +14,7 @@
 #pragma mark - View lifecycle
 
 - (void)loadView {
-    self.view = [[IconView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
+    self.view = [[[IconView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]] autorelease];
 }
 
 @end

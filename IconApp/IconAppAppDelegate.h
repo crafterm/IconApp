@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IconAppAppDelegate : NSObject <UIApplicationDelegate> {
-
-}
+@interface IconAppAppDelegate : NSObject <UIApplicationDelegate>
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 

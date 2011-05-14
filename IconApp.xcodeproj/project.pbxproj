@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFF8E0C6137E628700F39408 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF8E0C5137E628700F39408 /* UIKit.framework */; };
+		BFF8E0C8137E628700F39408 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF8E0C7137E628700F39408 /* Foundation.framework */; };
+		BFF8E0CA137E628700F39408 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF8E0C9137E628700F39408 /* CoreGraphics.framework */; };
+		BFF8E0D0137E628800F39408 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFF8E0CE137E628800F39408 /* InfoPlist.strings */; };
+		BFF8E0D3137E628800F39408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF8E0D2137E628800F39408 /* main.m */; };
+		BFF8E0D6137E628800F39408 /* IconAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF8E0D5137E628800F39408 /* IconAppAppDelegate.m */; };
+		BFF8E0D9137E628800F39408 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFF8E0D7137E628800F39408 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BFF8E0C1137E628700F39408 /* IconApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF8E0C5137E628700F39408 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BFF8E0C7137E628700F39408 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFF8E0C9137E628700F39408 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BFF8E0CD137E628800F39408 /* IconApp-Info.plist */ = {isa = PBXFileReference; path = "IconApp-Info.plist"; sourceTree = "<group>"; };
+		BFF8E0CF137E628800F39408 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFF8E0D1137E628800F39408 /* IconApp-Prefix.pch */ = {isa = PBXFileReference; path = "IconApp-Prefix.pch"; sourceTree = "<group>"; };
+		BFF8E0D2137E628800F39408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFF8E0D4137E628800F39408 /* IconAppAppDelegate.h */ = {isa = PBXFileReference; path = IconAppAppDelegate.h; sourceTree = "<group>"; };
+		BFF8E0D5137E628800F39408 /* IconAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconAppAppDelegate.m; sourceTree = "<group>"; };
+		BFF8E0D8137E628800F39408 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFF8E0BE137E628700F39408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF8E0C6137E628700F39408 /* UIKit.framework in Frameworks */,
+				BFF8E0C8137E628700F39408 /* Foundation.framework in Frameworks */,
+				BFF8E0CA137E628700F39408 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFF8E0B6137E628700F39408 = {
+			isa = PBXGroup;
+			children = (
+				BFF8E0CB137E628700F39408 /* IconApp */,
+				BFF8E0C4137E628700F39408 /* Frameworks */,
+				BFF8E0C2137E628700F39408 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFF8E0C2137E628700F39408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8E0C1137E628700F39408 /* IconApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFF8E0C4137E628700F39408 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8E0C5137E628700F39408 /* UIKit.framework */,
+				BFF8E0C7137E628700F39408 /* Foundation.framework */,
+				BFF8E0C9137E628700F39408 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFF8E0CB137E628700F39408 /* IconApp */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8E0D4137E628800F39408 /* IconAppAppDelegate.h */,
+				BFF8E0D5137E628800F39408 /* IconAppAppDelegate.m */,
+				BFF8E0D7137E628800F39408 /* MainWindow.xib */,
+				BFF8E0CC137E628800F39408 /* Supporting Files */,
+			);
+			path = IconApp;
+			sourceTree = "<group>";
+		};
+		BFF8E0CC137E628800F39408 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8E0CD137E628800F39408 /* IconApp-Info.plist */,
+				BFF8E0CE137E628800F39408 /* InfoPlist.strings */,
+				BFF8E0D1137E628800F39408 /* IconApp-Prefix.pch */,
+				BFF8E0D2137E628800F39408 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFF8E0C0137E628700F39408 /* IconApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF8E0DC137E628800F39408 /* Build configuration list for PBXNativeTarget "IconApp" */;
+			buildPhases = (
+				BFF8E0BD137E628700F39408 /* Sources */,
+				BFF8E0BE137E628700F39408 /* Frameworks */,
+				BFF8E0BF137E628700F39408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IconApp;
+			productName = IconApp;
+			productReference = BFF8E0C1137E628700F39408 /* IconApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFF8E0B8137E628700F39408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Red Artisan";
+			};
+			buildConfigurationList = BFF8E0BB137E628700F39408 /* Build configuration list for PBXProject "IconApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BFF8E0B6137E628700F39408;
+			productRefGroup = BFF8E0C2137E628700F39408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFF8E0C0137E628700F39408 /* IconApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFF8E0BF137E628700F39408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF8E0D0137E628800F39408 /* InfoPlist.strings in Resources */,
+				BFF8E0D9137E628800F39408 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFF8E0BD137E628700F39408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF8E0D3137E628800F39408 /* main.m in Sources */,
+				BFF8E0D6137E628800F39408 /* IconAppAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFF8E0CE137E628800F39408 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFF8E0CF137E628800F39408 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BFF8E0D7137E628800F39408 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFF8E0D8137E628800F39408 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFF8E0DA137E628800F39408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFF8E0DB137E628800F39408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		BFF8E0DD137E628800F39408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IconApp/IconApp-Prefix.pch";
+				INFOPLIST_FILE = "IconApp/IconApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BFF8E0DE137E628800F39408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IconApp/IconApp-Prefix.pch";
+				INFOPLIST_FILE = "IconApp/IconApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFF8E0BB137E628700F39408 /* Build configuration list for PBXProject "IconApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF8E0DA137E628800F39408 /* Debug */,
+				BFF8E0DB137E628800F39408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF8E0DC137E628800F39408 /* Build configuration list for PBXNativeTarget "IconApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF8E0DD137E628800F39408 /* Debug */,
+				BFF8E0DE137E628800F39408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFF8E0B8137E628700F39408 /* Project object */;
+}
